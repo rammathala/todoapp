@@ -1,0 +1,83 @@
+.Todo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px 30px;
+    width: 450px;
+    margin:10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    //border-radius: 10px;
+    overflow-wrap: break-word;
+    border-left: 5px solid rgb(0, 128, 43);
+    animation: scal 0.4s;
+}
+@keyframes scal {
+ 0%{
+     scale:0;
+ }
+ 100%{
+    scale: 1;
+ }
+}
+.Tico{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+.Tdes{
+   flex: 1;
+   text-transform: capitalize;
+   font-weight: 600;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: -7px;
+}
+.tide{
+    margin-top: -7px;
+    color: rgb(164, 180, 221);
+    flex: 1;
+   text-transform: capitalize;
+   font-weight: 600;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: line-through black 2px;
+}
+
+.topm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topm >p{
+    font-weight:500 ;
+    font-size: 12.5px;
+    font-family: cursive;
+}
+.non{
+    color:dodgerblue !important;
+    font-size: 22px !important;
+    padding: 15px !important;
+}
+.read{
+    font-size: 22px !important;
+    padding: 15px !important;
+}
+.tim{
+  //background-color: rgb(81, 157, 196); 
+  width: 60%;  
+  padding: 2px; 
+  //color: white;
+  color:black;
+}
+.n{
+    
+    color: dodgerblue !important;
+}
+.comple{
+    font-size: 22px !important;
+    padding: 10px !important;
+    color: rgb(188, 65, 65) !important;
+}
+.delh{
+    margin-right: 10px !important;
+    color: rgb(190, 41, 41) !;
+}

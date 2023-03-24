@@ -1,0 +1,23 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  //background-color: #F0EFE9;
+  height: 100vh;
+}
+.count{
+  padding: 10px;
+  margin-bottom: 0;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content:end;
+}
+.count > p{
+  position: absolute;
+  right: 24px;
+  margin-top:3px;
+  color: rgb(250, 252, 255);
+  background-color: rgb(54, 185, 133);
+  border-radius: 50%;
+  padding: 2px 7px;
+}
